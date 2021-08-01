@@ -203,6 +203,7 @@ a:hover {
   -o-border-radius: 20px;
   border: none;
   width: 100% !important;
+  margin-bottom: 50px;
 }
 .menu .container .card .card-body {
   padding: 0;
@@ -698,11 +699,20 @@ margin-bottom: 30px;
   nav {
     border-bottom: 1px solid rgb(224, 224, 224);
   }
-  .d-s-n img {
-    display: block;
-    width: 100%;
-    margin-top: 150px;
+  .d-s-n {
+    display: none;
   }
+  .d-s-s {
+    display: block;
+  }
+  .d-s-s img {
+    display: block;
+    width: 300px;
+    max-width: 350px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
   .hero {
     height: 100%;
   }
@@ -715,6 +725,9 @@ margin-bottom: 30px;
   .hero .hero-content .title-dis {
     font-size: 16px;
     padding-right: 35px;
+  }
+  .menu {
+    margin-top: 30px;
   }
 }
 
