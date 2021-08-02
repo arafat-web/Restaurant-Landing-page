@@ -69,7 +69,13 @@ a:hover {
   font-weight: 600;
   font-family: var(--main-font);
 }
-
+.shop-link, .blog-link, .pro-link{
+  color: white;
+}
+.shop-link:hover, .blog-link:hover, .pro-link:hover{
+  color: white;
+  opacity: 0.7;
+}
 .navbar {
   background-color: white !important;
 }
@@ -284,10 +290,10 @@ margin-bottom: 30px;
   background-color: var(--main-color);
   padding-top: 20px;
   border-radius: 10px;
-  -webkit-border-radius: ;
-  -moz-border-radius: ;
-  -ms-border-radius: ;
-  -o-border-radius: ;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   box-shadow: 5px 10px 40px 0px rgb(151, 146, 146);
 }
 .our-menu .container .menu-item .menu-card .menu-img {
@@ -425,6 +431,7 @@ margin-bottom: 30px;
   color: white;
   font-family: var(--main-font);
 }
+
 .our-shop .container .card .card-img {
   display: block;
   height: 200px;
@@ -473,6 +480,7 @@ margin-bottom: 30px;
   padding-top: 15px;
   font-size: 20px;
 }
+
 .our-blog .card .card-text {
   font-size: 16px;
   padding-bottom: 15px;
@@ -526,6 +534,7 @@ margin-bottom: 30px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 
 /* Our Pro Area End  */
 /* Footer Area Start  */
